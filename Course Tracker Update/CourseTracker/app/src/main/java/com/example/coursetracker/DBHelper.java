@@ -21,7 +21,7 @@ import java.util.List;
 public class DBHelper extends SQLiteOpenHelper {
     private Context context;
     private static final String DATABASE_NAME = "courseTracker.db";
-    private static final int DATABASE_VERSION = 4;
+    private static final int DATABASE_VERSION = 5;  // Note: upgrade the DB with new user
     public static final String COURSE_TABLE = "course_data"; // data table 1
     private static final String COMPLETED_TABLE = "completed_data"; // data table 2
     private static final String USER_TABLE = "user_data"; // data table 3
